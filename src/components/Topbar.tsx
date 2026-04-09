@@ -27,7 +27,7 @@ export default function Topbar() {
 
         <div className="flex items-center gap-3 pl-4 border-l border-slate-100">
           <div className="text-right hidden sm:block">
-            <p className="text-sm font-bold text-slate-900">Alexandre D.</p>
+            <p className="text-sm font-bold text-slate-900">Luc F.</p>
             <p className="text-[10px] font-medium text-slate-400 uppercase tracking-wider">Administrateur</p>
           </div>
           <div className="w-10 h-10 rounded-xl overflow-hidden border-2 border-white shadow-sm">

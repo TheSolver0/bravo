@@ -4,12 +4,12 @@ import { Search, Filter, Mail, MessageSquare, ArrowRight, Plus } from 'lucide-re
 import { motion } from 'motion/react';
 
 const MOCK_TEAM: User[] = [
-  { id: '1', name: 'Sarah Kamau', role: 'Directrice Artistique', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah', points: 1250, department: 'Design' },
-  { id: '2', name: 'Marcus Diallo', role: 'Développeur Senior', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus', points: 1840, department: 'Ingénierie' },
-  { id: '3', name: 'Léa Traoré', role: 'Product Owner', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Lea', points: 950, department: 'Produit' },
-  { id: '4', name: 'David Okoro', role: 'Growth Manager', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=David', points: 1520, department: 'Marketing' },
-  { id: '5', name: 'Jordan M\'Beki', role: 'Fullstack Dev', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Jordan', points: 2100, department: 'Ingénierie' },
-  { id: '6', name: 'Amandine Diop', role: 'UX Designer', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Amandine', points: 1100, department: 'Design' },
+  { id: '1', name: 'Allegra Dissake', role: 'Directrice Artistique', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah', points: 1250, department: 'Design' },
+  { id: '2', name: 'Salomon Sibafo', role: 'Développeur Senior', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus', points: 1840, department: 'Ingénierie' },
+  { id: '3', name: 'Dilane Taptue', role: 'Product Owner', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Lea', points: 950, department: 'Produit' },
+  { id: '4', name: 'Marie Ngo Tonye', role: 'Growth Manager', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=David', points: 1520, department: 'Marketing' },
+  { id: '5', name: 'Luc Fotso', role: 'Fullstack Dev', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Jordan', points: 2100, department: 'Ingénierie' },
+  { id: '6', name: 'Eric Moukouri', role: 'UX Designer', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Amandine', points: 1100, department: 'Design' },
 ];
 
 export default function EquipeView() {
