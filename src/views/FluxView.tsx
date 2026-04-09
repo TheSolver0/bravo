@@ -9,7 +9,7 @@ import { motion } from 'motion/react';
 const MOCK_KUDOS: Kudo[] = [
   {
     id: '1',
-    sender: { id: 's1', name: 'Sarah Jenkins', role: 'Design Ops', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah', points: 1520 },
+    sender: { id: 's1', name: 'Dilane Taptue', role: 'Design Ops', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah', points: 1520 },
     receiver: { id: 'r1', name: 'David Chen', role: 'Ingénierie', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=David', points: 1840 },
     message: "Un immense merci à David pour son aide tardive sur le bug en production. Ton expertise technique a sauvé la mise !",
     points: 50,
@@ -18,7 +18,7 @@ const MOCK_KUDOS: Kudo[] = [
   },
   {
     id: '2',
-    sender: { id: 's2', name: 'Marcus Thorne', role: 'Produit', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus', points: 1290 },
+    sender: { id: 's2', name: 'Dilane Taptue', role: 'Produit', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus', points: 1290 },
     receiver: { id: 'r2', name: 'Alex Rivera', role: 'Marketing', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Alex', points: 950 },
     message: "Alex a pris l'entière responsabilité de la présentation client en l'absence du responsable. Cette autonomie est inspirante pour toute l'équipe.",
     points: 75,
@@ -27,7 +27,7 @@ const MOCK_KUDOS: Kudo[] = [
   },
   {
     id: '3',
-    sender: { id: 's3', name: 'Elena Rodriguez', role: 'Design', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Elena', points: 2100 },
+    sender: { id: 's3', name: 'Evodie Magrace', role: 'Design', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Elena', points: 2100 },
     receiver: { name: 'L\'Équipe Design', role: 'Département' },
     message: "La nouvelle documentation du design system est de classe mondiale. Merci pour l'efficacité et la clarté que cela apporte à nos développeurs !",
     points: 120,
@@ -38,9 +38,9 @@ const MOCK_KUDOS: Kudo[] = [
 ];
 
 const MOCK_LEADERBOARD: User[] = [
-  { id: '1', name: 'David Chen', role: 'Ingénierie', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=David', points: 1840, department: 'INGÉNIERIE' },
-  { id: '2', name: 'Sarah Jenkins', role: 'Design Ops', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah', points: 1520, department: 'DESIGN OPS' },
-  { id: '3', name: 'Marcus Thorne', role: 'Produit', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus', points: 1290, department: 'PRODUIT' },
+  { id: '1', name: 'Marie Ngo Tonye', role: 'Ingénierie', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=David', points: 1840, department: 'INGÉNIERIE' },
+  { id: '2', name: 'Eric Moukouri', role: 'Design Ops', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah', points: 1520, department: 'DESIGN OPS' },
+  { id: '3', name: 'Luc Fotso', role: 'Produit', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus', points: 1290, department: 'PRODUIT' },
   { id: 'me', name: 'Vous', role: 'Marketing', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Alexandre', points: 850, department: 'MARKETING', isCurrentUser: true },
 ];
 
